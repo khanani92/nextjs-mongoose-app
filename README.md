@@ -8,7 +8,7 @@
 
 An [**Next.js**](https://github.com/zeit/next.js/) and [**Mongoose**](https://mongoosejs.com/) web application, designed with simplicity for learning and real-world applicability in mind. [This repo is extentsion of nextjs mongodb app by Hoang Vo](https://github.com/hoangvvo/nextjs-mongodb-app) .
          
-:rocket: [Check out the demo](https://nextjs-mongoose.vercel.app/) :rocket:
+:rocket: [Check out the demo](https://nextjs-mongoose-app.vercel.app/) :rocket:
 
 </div>
 
