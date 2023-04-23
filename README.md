@@ -6,8 +6,8 @@
   
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fkhanani92%2Fnextjs-mongoose-app&env=MONGODB_URI,CLOUDINARY_URL,NODEMAILER_CONFIG,WEB_URI&envDescription=Environment%20Variables&envLink=https%3A%2F%2Fgithub.com%2Fkhanani92%2Fnextjs-mongoose-app%23environmental-variables&demo-title=nextjs-mongoose-app%20demo&demo-description=A%20demo%20deployed%20on%20Vercel&demo-url=https%3A%2F%2Fnextjs-mongoose.vercel.app%2F)
 
-An [**Next.js**](https://github.com/zeit/next.js/) and [**Mongoose**](https://mongoosejs.com/) web application, designed with simplicity for learning and real-world applicability in mind.
-
+An [**Next.js**](https://github.com/zeit/next.js/) and [**Mongoose**](https://mongoosejs.com/) web application, designed with simplicity for learning and real-world applicability in mind. [This repo is extentsion of nextjs mongodb app by Hoang Vo](https://github.com/hoangvvo/nextjs-mongodb-app) .
+         
 :rocket: [Check out the demo](https://nextjs-mongoose.vercel.app/) :rocket:
 
 </div>
