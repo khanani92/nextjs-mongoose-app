@@ -1,6 +1,6 @@
-import { findUserById } from '@/api-lib/db';
-import dbConnect from '@/api-lib/mongoose';
-import { ncOpts } from '@/api-lib/nc';
+import { findUserById } from '@/backend/db';
+import dbConnect from '@/backend/mongoose';
+import { ncOpts } from '@/backend/nc';
 import nc from 'next-connect';
 
 const handler = nc(ncOpts);

@@ -1,4 +1,4 @@
-import { findUserForAuth, findUserWithEmailAndPassword } from '@/api-lib/db';
+import { findUserForAuth, findUserWithEmailAndPassword } from '@/backend/db';
 import passport from 'passport';
 import { Strategy as LocalStrategy } from 'passport-local';
 import dbConnect from '../mongoose';

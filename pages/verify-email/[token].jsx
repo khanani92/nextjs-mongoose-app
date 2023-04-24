@@ -1,5 +1,5 @@
-import { findAndDeleteTokenByIdAndType, updateUserById } from '@/api-lib/db';
-import dbConnect from '@/api-lib/mongoose';
+import { findAndDeleteTokenByIdAndType, updateUserById } from '@/backend/db';
+import dbConnect from '@/backend/mongoose';
 import { VerifyEmail } from '@/page-components/VerifyEmail';
 import Head from 'next/head';
 

@@ -25,7 +25,7 @@ An [**Next.js**](https://github.com/zeit/next.js/) and [**Mongoose**](https://mo
 💋 [KISS](https://en.wikipedia.org/wiki/KISS_principle): No fancy stuff like GraphQL, SASS, Redux, etc.
 ✍️ Come with explanatory blog posts
 
-📙 Can be adapted to any databases besides MongoDB/Mongoose (Just update [api-lib/db](api-lib/db))
+📙 Can be adapted to any databases besides MongoDB/Mongoose (Just update [backend/db](backend/db))
 
 </div>
 

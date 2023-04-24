@@ -1,8 +1,8 @@
-import { createToken } from '@/api-lib/db';
-import { CONFIG as MAIL_CONFIG, sendMail } from '@/api-lib/mail';
-import { auths } from '@/api-lib/middlewares';
-import dbConnect from '@/api-lib/mongoose';
-import { ncOpts } from '@/api-lib/nc';
+import { createToken } from '@/backend/db';
+import { CONFIG as MAIL_CONFIG, sendMail } from '@/backend/mail';
+import { auths } from '@/backend/middlewares';
+import dbConnect from '@/backend/mongoose';
+import { ncOpts } from '@/backend/nc';
 import nc from 'next-connect';
 
 const handler = nc(ncOpts);

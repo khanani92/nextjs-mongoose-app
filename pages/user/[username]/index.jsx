@@ -1,5 +1,5 @@
-import { findUserByUsername } from '@/api-lib/db';
-import dbConnect from '@/api-lib/mongoose';
+import { findUserByUsername } from '@/backend/db';
+import dbConnect from '@/backend/mongoose';
 import { User } from '@/page-components/User';
 import Head from 'next/head';
 

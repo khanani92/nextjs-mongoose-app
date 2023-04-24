@@ -1,7 +1,7 @@
-import { Button } from '@/components/Button';
-import { Input } from '@/components/Input';
-import { Container, Spacer, Wrapper } from '@/components/Layout';
-import { TextLink } from '@/components/Text';
+import { Button } from '../../shared/components/Button';
+import { Input } from '../../shared/components/Input';
+import { Container, Spacer, Wrapper } from '../../shared/components/Layout';
+import { TextLink } from '../../shared/components/Text';
 import { fetcher } from '@/lib/fetch';
 import { useCurrentUser } from '@/lib/user';
 import Link from 'next/link';

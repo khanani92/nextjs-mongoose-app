@@ -1,13 +1,13 @@
-import { ValidateProps } from '@/api-lib/constants';
-import { findUserByUsername, updateUserById } from '@/api-lib/db';
-import { auths, validateBody } from '@/api-lib/middlewares';
-import dbConnect from '@/api-lib/mongoose';
-import { ncOpts } from '@/api-lib/nc';
+import { ValidateProps } from '@/backend/constants';
+import { findUserByUsername, updateUserById } from '@/backend/db';
+import { auths, validateBody } from '@/backend/middlewares';
+import dbConnect from '@/backend/mongoose';
+import { ncOpts } from '@/backend/nc';
 import { slugUsername } from '@/lib/user';
 import { v2 as cloudinary } from 'cloudinary';
 import multer from 'multer';
 import nc from 'next-connect';
-import { isAuth } from '@/api-lib/middlewares/authMiddleware';
+import { isAuth } from '@/backend/middlewares/authMiddleware';
 
 const upload = multer({ dest: '/tmp' });
 const handler = nc(ncOpts);
