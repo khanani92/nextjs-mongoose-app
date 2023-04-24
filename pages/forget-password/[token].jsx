@@ -1,5 +1,5 @@
-import { findTokenByIdAndType } from '@/api-lib/db';
-import dbConnect from '@/api-lib/mongoose';
+import { findTokenByIdAndType } from '@/backend/db';
+import dbConnect from '@/backend/mongoose';
 import { ForgetPasswordToken } from '@/page-components/ForgetPassword';
 import Head from 'next/head';
 

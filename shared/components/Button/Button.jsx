@@ -1,4 +1,4 @@
-import { LoadingDots } from '@/components/LoadingDots';
+import { LoadingDots } from '../LoadingDots';
 import clsx from 'clsx';
 import { forwardRef } from 'react';
 import styles from './Button.module.css';

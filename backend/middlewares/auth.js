@@ -1,4 +1,4 @@
-import { passport } from '@/api-lib/auth';
+import { passport } from '@/backend/auth';
 import session from './session';
 
 const auths = [session, passport.initialize(), passport.session()];

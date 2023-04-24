@@ -1,5 +1,5 @@
-import { ButtonLink } from '@/components/Button';
-import { Container, Spacer, Wrapper } from '@/components/Layout';
+import { ButtonLink } from '../../shared/components/Button';
+import { Container, Spacer, Wrapper } from '../../shared/components/Layout';
 import Link from 'next/link';
 import styles from './Hero.module.css';
 
@@ -13,12 +13,12 @@ const Hero = () => {
           <span>App</span>
         </h1>
         <Container justifyContent="center" className={styles.buttons}>
-          <Container>
+          {/* <Container>
             <Link passHref href="/feed">
               <ButtonLink className={styles.button}>Explore Feed</ButtonLink>
             </Link>
           </Container>
-          <Spacer axis="horizontal" size={1} />
+          <Spacer axis="horizontal" size={1} /> */}
           <Container>
             <ButtonLink
               href="https://github.com/khanani92/nextjs-mongoose-app"

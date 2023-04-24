@@ -1,5 +1,5 @@
-import { Avatar } from '@/components/Avatar';
-import { Container } from '@/components/Layout';
+import { Avatar } from '../../shared/components/Avatar';
+import { Container } from '../../shared/components/Layout';
 import styles from './UserHeader.module.css';
 
 const UserHeader = ({ user }) => {

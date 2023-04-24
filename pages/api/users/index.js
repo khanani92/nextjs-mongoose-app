@@ -1,8 +1,8 @@
-import { ValidateProps } from '@/api-lib/constants';
-import { findUserByEmail, findUserByUsername, insertUser } from '@/api-lib/db';
-import { auths, validateBody } from '@/api-lib/middlewares';
-import dbConnect from '@/api-lib/mongoose';
-import { ncOpts } from '@/api-lib/nc';
+import { ValidateProps } from '@/backend/constants';
+import { findUserByEmail, findUserByUsername, insertUser } from '@/backend/db';
+import { auths, validateBody } from '@/backend/middlewares';
+import dbConnect from '@/backend/mongoose';
+import { ncOpts } from '@/backend/nc';
 import { slugUsername } from '@/lib/user';
 import nc from 'next-connect';
 import isEmail from 'validator/lib/isEmail';

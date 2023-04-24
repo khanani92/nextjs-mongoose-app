@@ -1,8 +1,8 @@
-import { Avatar } from '@/components/Avatar';
-import { Button } from '@/components/Button';
-import { Input, Textarea } from '@/components/Input';
-import { Container, Spacer } from '@/components/Layout';
-import Wrapper from '@/components/Layout/Wrapper';
+import { Avatar } from '../../shared/components/Avatar';
+import { Button } from '../../shared/components/Button';
+import { Input, Textarea } from '../../shared/components/Input';
+import { Container, Spacer } from '../../shared/components/Layout';
+import Wrapper from '../../shared/components/Layout/Wrapper';
 import { fetcher } from '@/lib/fetch';
 import { useCurrentUser } from '@/lib/user';
 import { useRouter } from 'next/router';

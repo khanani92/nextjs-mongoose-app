@@ -1,14 +1,14 @@
-import { ValidateProps } from '@/api-lib/constants';
+import { ValidateProps } from '@/backend/constants';
 import {
   createToken,
   findAndDeleteTokenByIdAndType,
   findUserByEmail,
   UNSAFE_updateUserPassword,
-} from '@/api-lib/db';
-import { CONFIG as MAIL_CONFIG, sendMail } from '@/api-lib/mail';
-import { validateBody } from '@/api-lib/middlewares';
-import dbConnect from '@/api-lib/mongoose';
-import { ncOpts } from '@/api-lib/nc';
+} from '@/backend/db';
+import { CONFIG as MAIL_CONFIG, sendMail } from '@/backend/mail';
+import { validateBody } from '@/backend/middlewares';
+import dbConnect from '@/backend/mongoose';
+import { ncOpts } from '@/backend/nc';
 import nc from 'next-connect';
 import normalizeEmail from 'validator/lib/normalizeEmail';
 

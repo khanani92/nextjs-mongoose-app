@@ -1,5 +1,5 @@
 import '@/assets/base.css';
-import { Layout } from '@/components/Layout';
+import { Layout } from '../shared/components/Layout';
 import { ThemeProvider } from 'next-themes';
 import { Toaster } from 'react-hot-toast';
 
